@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <!--Theme: Purple, pink and white-->
+    <!-- div that stores everything -->
+    <!-- div that stores the header "SheSpeaksTwenties"-->
+    <!-- div that stores the sign up page
+    1 side: Image
+    2 side: form
+    -->
+    <!--div that stores the sign up form
+    Title: Sign Up
+    - div for the inputs
+    5 inputs: first name, last name, email, password, confirm password
+    - div for the button
+    1 submit button: Sign Up
+    - div for "Already have an account? Login"
+    -->
+    <div class="body">
+      <div class="container">
+        <div class="right-form">
+          <h2>Sign Up</h2>
+          <form class="form-elements" id="form-elements" novalidate>
+            <div class="input-control">
+              <input type="text" placeholder="First Name" id="fname" required />
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <input type="text" placeholder="Last Name" id="lname" required />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <input type="email" placeholder="Email" id="email" required />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <input
+                type="password"
+                placeholder="Password"
+                id="password"
+                required
+              />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                id="confirm"
+                required
+              />
+              <div class="error"></div>
+            </div>
+
+            <div class="terms">
+              <p>By signing up, you are agreeing to our</p>
+              <span class="small-pink-bold">Terms & Conditions</span> and
+              <span class="small-pink-bold">Privacy Policy</span>
+            </div>
+            <div class="signup" type="submit">
+              <button class="signup-btn">Sign Up</button>
+            </div>
+          </form>
+
+          <div class="terms">
+            Already have an account? <span class="medium-pink-bold">Login</span>
+          </div>
+        </div>
+        <!--End of right form-->
+      </div>
+      <!--End of container div-->
+    </div>
+    <!--End of body div-->
+  </body>
+</html>
