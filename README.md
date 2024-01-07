@@ -1,6 +1,6 @@
 <h1>Sign Up Form + Validation</h1>
 Created a clean and well presented sign up form with user validation.
-Used HTML, CSS and vanilla Javascript
+Used HTML, CSS and Javascript
 
 <h1>Demo</h1>
 
